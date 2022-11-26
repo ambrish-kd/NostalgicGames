@@ -1,0 +1,31 @@
+*{  
+    font-family: "Raleway", sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #8052ec, #d161ff);
+}
+
+canvas{
+    box-shadow: rgb(205, 178, 178) 20px 10px 50px;
+}
+
+#footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;   /* Height of the footer */
+    background: linear-gradient(135deg, #8052ec, #d161ff);
+ }
+
+ #copyPara{
+    margin-top: 4px;
+    font-weight: 600;
+ }
